@@ -1,0 +1,26 @@
+.location{
+    font-size: small;
+}
+
+.project-type{
+    font-size:large;
+    text-align: center;
+}
+.vh{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    color: gainsboro;
+    background-color: black !important;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+}
