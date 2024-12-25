@@ -3,76 +3,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tom Chan Design</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link
-		rel="stylesheet"
-		href="./style.css"
-		/>
-    <style>
-      body{
-        background: url("img/hero/hero2.jpg") no-repeat center fixed;
-        background-size: cover
-      }
-
-      .home-text{
-    color: white;
-}
-    </style>
-
-</head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Tom Chan Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito:wght@200;300;600&display=swap" rel="stylesheet">
 <body>
- 
-
-  <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" aria-label="Fourth navbar example">
     <div class="container-fluid">
-      <div class="navbar-collapse justify-content-center" id="navbarCollapse">
-        <ul class="navbar-nav justify-content-between">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+      <a class="navbar-brand" href="./index.html"><img class="logo  my-2 mx-4" src ="./img/logo-01.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse  justify-content-center" id="navbarsExample04" >
+        <ul class="navbar-nav me-auto mb-2 mb-md-0 justify-content-center flex">
+          <li class="nav-item mx-2 text-center">
+            <a class="nav-link justify-content-center flex text-center" href="#">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
+          <li class="nav-item mx-2">
+            <a class="nav-link justify-content-center flex text-center" href="./networking.html">Projects</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./projects.html">Projects</a>
+          <li class="nav-item mx-2">
+            <a class="nav-link justify-content-center flex text-center" href="./Jury.html">Awards</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+          <li class="nav-item mx-2">
+            <a class="nav-link justify-content-center flex text-center" href="./prizes.html">Contact</a>
           </li>
+          
         </ul>
+        
       </div>
     </div>
   </nav>
-  
-  
-  
-  
 
-  <div class="vh container-fluid home-text">
-    <div class="row px-4 py-5 my-5 text-center">
-      <h1 class="fw-light my-5 text-center">Tom Chan</h1>
-      <div class="col mx-auto">
-        <p class="lead mb-5">Architect | Visualiser | Digital Artist</p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-     
-          <a href="./projects.html"  type="button" class="btn btn-outline-light btn-md px-4 gap-3">See Projects</a>
-        
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+    </div>
+    <div class="carousel-inner">
+      
+      <div class="carousel-item " data-bs-interval="5000">
+        <img class="carousel-image" src = "img/hero/hero1.jpg">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>I make beautiful designs.</h1>
+            <p class="opacity-100"></p>
+            <button type="button" class="opacity-75 login-button btn btn-outline-light ">About</button>
+             
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item active " data-bs-interval="5000">
+        <img class="carousel-image" src = "img/hero/hero2.jpg">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>I make beautiful drawing.</h1>
+            <p class="opacity-100"></p>
+            <button type="button" class="opacity-75 login-button btn btn-outline-light ">Awards</button>
+             
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item " data-bs-interval="5000">
+        <img class="carousel-image" src = "img/hero/hero3.jpg">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>I take beautiful photos.</h1>
+            <p class="opacity-100"> </p>
+            <button type="button" class="opacity-75 login-button btn btn-outline-light ">Photos</button>
+             
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container-fluid  p-5">
+    <div class="row m-0 g-3 ">
+      <h2>Awards + Exhibitions</h2>
+    </div>
+    <div class="row m-0 g-3 ">
+      <div class="col-lg-6 fixed-height" >
+        <div class="h-100 p-5 text-bg-dark" style="
+        background-image: url('./img/event/WAF/WAF.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          <h2>World Architectural Festival 2023</h2>
+          <p>Architectural Drawing Prize 2023 - Shortlist</p>
+        </div>
+      </div>
+      <div class="col-lg-6 fixed-height">
+        <div class="h-100 p-5 text-bg-dark " style="
+        background-image: url('./img/event/BarcelonaDesignweek/BDW.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          <h2>Barcelona Design Week 2023</h2>
+          <p>Human X AI Design Challenge - Special Mention</p>
+        </div>
+      </div>
+      <div class="col-sm-12 fixed-height">
+        <div class="h-100 p-5 text-bg-dark " style="
+        background-image: url('./img/event/MilanDesignweek/MDW.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          <h2>Milan Design Week 2024</h2>
+          <p>Zona Sarpi - Best Trending Award</p>
+        </div>
+      </div>
+      <div class="col-sm-12 fixed-height">
+        <div class="h-100 p-5 text-bg-dark "style="
+       background-image: url('./img/event/WAF/SJS.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          <h2>Architectural Drawing Prize Exhibition 2023</h2>
+          <p>Exhibited in Sir John Soane Museum</p>
         </div>
       </div>
     </div>
-</div>
 
-
-<div class="container-fluid mx-0 px-4 fixed-bottom text-bg-dark">
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2">
-    <div class="col-md-4 d-flex align-items-center justify-content">
-      <span class="mb-3 mb-md-0 text-secondary">© 2024 Tom Chan</span>
+    <div class="row m-0 g-3 pb-5">
+      <div class="col-lg-4 fixed-height">
+        <div class="h-100 p-5 text-bg-dark"style="
+        background-image: url('./img/thumbnail/IAAC.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          <h2>IAAC 11th Advanced Architecture Contest </h2>
+          <p>First Prize</p>
+        </div>
+      </div>
+      <div class="col-lg-4 fixed-height">
+        <div class="h-100 p-5 text-bg-dark "style="
+        background-image: url('./img/event/graduateshow/FGS.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          <h2>Foster Graduate Show 2024</h2>
+          <p>Presented to Lord Norman Foster</p>
+        </div>
+    
     </div>
+      <div class="col-lg-4 fixed-height" >
+        <div class="h-100 p-5 text-bg-dark "style="
+        background-image: url('./img/event/DesignTO/DTO.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          <h2>DesignTO 2024</h2>
+          <p>Exhibited in Largest Design Festival in Canada</p>
+        </div>
+      </div>
+    
+    
+  </div>
 
+  <footer class="d-flex flex-wrap justify-content-between align-items-center  px-5  border-top bg-white">
+    <div class="col-md-4 my-3 align-items-center bg-white">
+      
+      <span class=" text-body-secondary">© 2024 Tom Chan</span>
+    </div>
   </footer>
-</div>
-
+          
 
 </body>
 </html>
