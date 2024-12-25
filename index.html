@@ -24,16 +24,14 @@
       <div class="navbar-collapse collapse  justify-content-center" id="navbarsExample04" >
         <ul class="navbar-nav me-auto mb-2 mb-md-0 justify-content-center flex">
           <li class="nav-item mx-2 text-center">
-            <a class="nav-link justify-content-center flex text-center" href="#">About</a>
+            <a class="nav-link justify-content-center flex text-center" href="#about">About</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link justify-content-center flex text-center" href="./networking.html">Projects</a>
+            <a class="nav-link justify-content-center flex text-center" href="#works">Design Works</a>
           </li>
+        
           <li class="nav-item mx-2">
-            <a class="nav-link justify-content-center flex text-center" href="./Jury.html">Awards</a>
-          </li>
-          <li class="nav-item mx-2">
-            <a class="nav-link justify-content-center flex text-center" href="./prizes.html">Contact</a>
+            <a class="nav-link justify-content-center flex text-center" href="#photo">Photography (Beta)</a>
           </li>
           
         </ul>
@@ -42,7 +40,7 @@
     </div>
   </nav>
 
-  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+  <div id="myCarousel" class="carousel slide mb-6 pb-5" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
@@ -54,9 +52,9 @@
         <img class="carousel-image" src = "img/hero/hero1.jpg">
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>I make beautiful designs.</h1>
+            <h1 class="display-3">...make beautiful designs.</h1>
             <p class="opacity-100"></p>
-            <button type="button" class="opacity-75 login-button btn btn-outline-light ">About</button>
+            <a href="#about"><button type="button" class="opacity-75 login-button btn btn-outline-light ">See About</button></a>
              
           </div>
         </div>
@@ -66,9 +64,9 @@
         <img class="carousel-image" src = "img/hero/hero2.jpg">
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>I make beautiful drawing.</h1>
+            <h1 class="display-3">...make beautiful drawings.</h1>
             <p class="opacity-100"></p>
-            <button type="button" class="opacity-75 login-button btn btn-outline-light ">Awards</button>
+            <a href="#awards"><button type="button" class="opacity-75 login-button btn btn-outline-light ">See Work</button></a> 
              
           </div>
         </div>
@@ -78,9 +76,9 @@
         <img class="carousel-image" src = "img/hero/hero3.jpg">
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>I take beautiful photos.</h1>
+            <h1 class="display-3">...take beautiful photos.</h1>
             <p class="opacity-100"> </p>
-            <button type="button" class="opacity-75 login-button btn btn-outline-light ">Photos</button>
+            <a href="#awards"><button type="button" class="opacity-75 login-button btn btn-outline-light ">See Photos</button></a>
              
           </div>
         </div>
@@ -97,9 +95,9 @@
     </button>
   </div>
 
-  <div class="container-fluid  p-5">
-    <div class="row m-0 g-3 ">
-      <h2>Awards + Exhibitions</h2>
+  <div class="container-fluid  px-5 pt-5">
+    <div class="row m-0 g-3 " id="works">
+      <h2>Works + Exhibitions</h2>
     </div>
     <div class="row m-0 g-3 ">
       <div class="col-lg-6 fixed-height" >
@@ -175,10 +173,69 @@
           <h2>DesignTO 2024</h2>
           <p>Exhibited in Largest Design Festival in Canada</p>
         </div>
-      </div>
-    
-    
+      </div>  
+    </div>
   </div>
+
+  <div class="container-fluid  px-5 py-5">
+    <div class="row m-0 g-3" id="about">
+      <h2>About</h2>
+    </div>
+
+    <div class="row m-0 g-3 " >
+      <div class="col-lg-8">
+        <div class="h-100 p-5 bg-light border ">
+        <p class="fw-bold">Tom Chan | ARB | RIBA</p>
+          <p class="fw-light">As a UK registered architect, I'm currently working at Foster + Partners in London, UK, 
+            I'm involved in various projects such as luxury resort village and large-scale international airport in Saudi Arabia.
+            Before that I also worked on the construction stage of Hong Kong Palace Museum. 
+              <br><br>
+            I hold an AA Diploma (MArch) and BArch at the University of Hong Kong.
+            I also run a multimedia design service that specialises in animated architectural visualisation.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 " >
+        <div class="h-100 p-5 text-bg-dark "style="
+        background-image: url('./img/event/BarcelonaDesignweek/speaking.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          
+        </div>
+      </div>  
+    </div>
+  </div>  
+
+  <div class="container-fluid  px-5 py-5">
+    <div class="row m-0 g-3" id="photo">
+      <h2>Photography</h2>
+    </div>
+
+    <div class="row m-0 g-3 " >
+      
+      <div class="col-lg-8 " >
+        <div class="h-100 p-5 text-bg-dark "style="
+        background-image: url('./img/thumbnail/20230426_job_port_b_15.jpg');
+        background-size: cover;
+        background-position: center;
+        ">
+          
+        </div>
+      </div>  
+
+      <div class="col-lg-4">
+        <div class="h-100 p-5 bg-light border ">
+        <p >Photography | Beta</p>
+          <p class="fw-light"> 
+            Trial and error will fill up this canvas of creation, and hence the name.
+              <br><br>
+          
+            </p>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
 
   <footer class="d-flex flex-wrap justify-content-between align-items-center  px-5  border-top bg-white">
     <div class="col-md-4 my-3 align-items-center bg-white">
